@@ -14,9 +14,7 @@ function Home() {
     <Hero 
     cName="hero" heroImg={HomeImg} title="Your journey Your story" text="choose your favourite tours" buttonText="Travel plan" url="crop&w=1200&q=60" btnClass="show"
     /> 
-     <Destination />
-     <Trip />
-     <Footer />
+    
     </>
    
   );

@@ -15,25 +15,34 @@ export const MenuItems = [
 
   },
   {
-    title : "Service",
-    url : "/service",
+    title : "Sermons",
+    url : "/sermons",
     cName : "nav-links",
     icon : "fa-solid fa-briefcase"
 
   },
   {
-    title : "Contact",
-    url : "/contact",
+    title : "E-book",
+    url : "/e-book",
     cName : "nav-links",
     icon : "fa-solid fa-address-book"
 
   },
+  
   {
-    title : "Sign up",
-    url : "/signup",
-    cName : "nav-links-mobile",
-    
+    title : "Podcast",
+    url : "/podcast",
+    cName : "nav-links",
+    icon : "fa-solid fa-address-book"
 
   },
+  // {
+  //   title : "Contact",
+  //   url : "/contact",
+  //   cName : "nav-links",
+  //   icon : "fa-solid fa-address-book"
+
+  // },
+
 
 ];
