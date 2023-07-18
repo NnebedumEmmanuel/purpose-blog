@@ -1,6 +1,6 @@
 import HomeImg from "../assets/12.jpg";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Nav";
 
 
 
