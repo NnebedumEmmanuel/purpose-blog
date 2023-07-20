@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import ContactImg from "../assets/2.jpg";
+import ContactImg from "../assets/Ebook-1.jpeg";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
@@ -10,7 +10,7 @@ function Ebook() {
 
     <Navbar /> 
     <Hero 
-    cName="hero-mid" heroImg={ContactImg}  title="Contact"   url="crop&w=1200&q=60" btnClass="hide"
+    cName="hero-mid" heroImg={ContactImg}  title="E-books"   url="crop&w=1200&q=60" btnClass="hide"
     />  
     <ContactForm/>
     <Footer/>

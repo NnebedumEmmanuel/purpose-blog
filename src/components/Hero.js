@@ -1,11 +1,12 @@
 import "./HeroStyles.css";
+import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
 function Hero(props) {
   return (
     <>
    <div className={props.cName}>
-     <img src={props.heroImg}  alt="cewdfujn;"/>
+     <img className={props.class} src={props.heroImg}  alt="cewdfujn;"/>
 
     <div className="hero-text">
       <h1>{props.title}</h1>
