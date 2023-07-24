@@ -2,7 +2,8 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import ServiceImg from "../assets/Audio-1.jpeg";
 import Footer from "../components/Footer";
-import Trip from "../components/Trip";
+import SlimCard from "../components/Grid";
+import Grid from "../components/Grid";
 
 function Podcast() {
   return (
@@ -12,7 +13,8 @@ function Podcast() {
     <Hero 
     cName="hero-mid" heroImg={ServiceImg}  title="Podcast"   url="crop&w=1200&q=60" btnClass="hide"
     />  
-    <Trip/>
+    <Grid/>
+    
     <Footer/>
     </>
   );

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import ServiceImg from "../assets/sermon-2.jpeg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
+import Grid from "../components/Grid";
 
 function Sermons() {
   return (
@@ -12,6 +13,7 @@ function Sermons() {
     <Hero 
     cName="hero-mid" heroImg={ServiceImg}  title=""   url="crop&w=1200&q=60" btnClass="hide"
     />  
+    <Grid />
     <Trip/>
     <Footer/>
     </>

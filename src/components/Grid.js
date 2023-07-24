@@ -1,15 +1,15 @@
 import { Container, Row, Col, Tab,  } from "react-bootstrap";
-import { ProjectCard } from "./Cards";
-import projImg1 from "../assets/img/weather.jpg";
-import projImg2 from "../assets/img/to-do app-main.jpg.png";
-import projImg3 from "../assets/img/estate-landing-page.jpg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
+import ProjectCard  from "./Cards";
+import projImg1 from "../assets/11.jpg"
+import projImg2 from "../assets/11.jpg";
+import projImg3 from "../assets/11.jpg";
+import colorSharp2 from "../assets/11.jpg";
+
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+const Grid = () => {
 
-  const projects = [
+  const Grid = [
     {
       title: "Tour webapp",
       description: "A webapp that helps you find the best tour",
@@ -80,7 +80,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          Grid.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -104,7 +104,9 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   )
 }
+
+export default Grid
