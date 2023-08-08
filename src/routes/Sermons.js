@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import ServiceImg from "../assets/sermon-2.jpeg";
+import ServiceImg from "../assets/sermons.jpg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 import Grid from "../components/Grid";

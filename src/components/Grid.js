@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab,  } from "react-bootstrap";
 import ProjectCard  from "./Cards";
-import projImg1 from "../assets/11.jpg"
-import projImg2 from "../assets/11.jpg";
-import projImg3 from "../assets/11.jpg";
-import colorSharp2 from "../assets/11.jpg";
+import projImg1 from "../assets/christt.jpg";
+import projImg2 from "../assets/christt.jpg";
+import projImg3 from "../assets/christt.jpg";
+import colorSharp2 from "../assets/christt.jpg";
 
 import TrackVisibility from 'react-on-screen';
 

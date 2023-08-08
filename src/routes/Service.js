@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import ServiceImg from "../assets/night.jpg";
+import ServiceImg from "../assets/service-ga6c26acb0_1280.jpg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 
