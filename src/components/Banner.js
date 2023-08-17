@@ -3,8 +3,10 @@ import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
 // import projImg1 from "../assets/Christt.jpg"
 import hebrew from "../assets/hebrew.jpg"
 import bible from "../assets/bilble-view.jpg"
+import { Link } from "react-router-dom";
 
  const Banner = ({ title, description, imgUrl, messageLink, siteLink }) => {
+    
     return (
         <div className="mx-0 p-0">
            <div className="container-fluid just  mb-3  p-0 mx-1">

@@ -6,6 +6,8 @@ import Contact from "./routes/Contact";
 import Sermons from "./routes/Sermons";
 import Ebook from "./routes/E-book";
 import Podcast from "./routes/Podcast";
+import Saviour from "./routes/TheSaviour";
+
 
 
 
@@ -19,10 +21,12 @@ export default function App() {
         <Route path="/E-book" element={<Ebook />} />   
         <Route path="/Podcast" element={<Podcast />} />  
         <Route path="/contact" element={<Contact />} />  
+     
          
        
       </Routes>
      <home />
+     <Saviour/>
   
     
   

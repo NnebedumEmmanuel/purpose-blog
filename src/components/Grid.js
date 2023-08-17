@@ -62,8 +62,8 @@ const Grid = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>These are some of my works, feel ree to check it out.</p>
+                <h2>Sermons</h2>
+                <p>These are the sermons, feel free to check it out.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
