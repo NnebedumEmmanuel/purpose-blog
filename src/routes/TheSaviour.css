@@ -1,0 +1,17 @@
+.Saviour-desc{
+    margin-top: 13%;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    padding: 10px 20px;
+}
+.Christ-img{
+  
+    position:relative;
+    width: 100vw;
+    height: 60vh;
+    object-fit: contain;
+}
+.content{
+    background-color: whitesmoke;
+}

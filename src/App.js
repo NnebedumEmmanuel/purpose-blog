@@ -20,13 +20,16 @@ export default function App() {
         <Route path="/sermons" element={<Sermons />} />
         <Route path="/E-book" element={<Ebook />} />   
         <Route path="/Podcast" element={<Podcast />} />  
-        <Route path="/contact" element={<Contact />} />  
+        <Route path="/TheSaviour" element={<Saviour />} />  
+
      
-         
        
       </Routes>
-     <home />
-     <Saviour/>
+     <home/>
+     
+     
+    
+     
   
     
   

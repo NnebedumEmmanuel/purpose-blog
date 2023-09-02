@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="footer">
      <div className="top">
       <div >
-        <h1>Trippy</h1>
-        <p>Choose your favourite destination</p>
+        <h1>Christ-Lifehub</h1>
+        <p>Embracing Christ's Light: Illuminating Hearts and Minds"</p>
       </div>
       <div className="top">
         <a href="/">
@@ -26,10 +26,12 @@ const Footer = () => {
         </a>
       </div>
      </div>
+     <hr className="border-5"/>
 
-     <div className="bottom">
+     {/* <div className="bottom">
       <div>
-        <h4>project</h4>
+        <a className="pb-0 mb-0" >Meet the saviour</a>
+        <a className="pt-0 bt-0 h4">Contact us</a>
         <a href="/">Changelog</a>
         <a href="/">Status</a>
         <a href="/">License</a>
@@ -37,7 +39,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h4>Community</h4>
+        <a><a href="" className="h4">Community</a></a>
         <a href="/">Github</a>
         <a href="/">Issues</a>
         <a href="/">Project</a>
@@ -45,19 +47,33 @@ const Footer = () => {
       </div>
 
       <div>
-        <h4>Help</h4>
+        <a>Help</a>
         <a href="/">Support</a>
         <a href="/">Troubleshooting</a>
         <a href="/">Contact Us</a>    
       </div>
 
       <div>
-        <h4>Other Terms of Services</h4>
+        <a>Other Terms of Services</a>
         <a href="/">Privacy</a>
         <a href="/">Policy</a>
         <a href="/">License</a>
       </div>
 
+     </div> */}
+     <div className="bottom">
+     <div>
+      <p>© Copyright 2010 – 2023 Christ-Lifehub</p>
+     </div>
+     <div  aria-label="breadcrumb" >
+      <ol className="breadcrumb">
+        <li className="breadcrumb-item"><a href="#" className="breadcrumb-link">Terms of Service</a></li>
+        <li className="breadcrumb-item"><a href="#" className="breadcrumb-link">Privacy Policy
+
+</a></li>
+       
+      </ol>
+     </div>
      </div>
     </div>
   );

@@ -12,7 +12,7 @@ function Home() {
    
     <Navbar /> 
     <Hero 
-    cName="hero "  heroImg={Christ1} title="Do you know who the Saviour is?" text="His Name is JESUS" buttonText="Meet JESUS" url="../components/TheSaviour.js" btnClass="show"
+    cName="hero "  heroImg={Christ1} title="Do you know who the Saviour is?" text="His Name is JESUS" buttonText="Meet JESUS" url="../routes/TheSaviour" btnClass="show"
     /> 
     <Banner/>
     
