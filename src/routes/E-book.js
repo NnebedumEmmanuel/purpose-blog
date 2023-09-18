@@ -10,7 +10,7 @@ function Ebook() {
 
     <Navbar /> 
     <Hero 
-    cName="hero-mid" heroImg={EBook}  title="E-books"   url="crop&w=1200&q=60" btnClass="hide"
+    cName="hero-mid" heroImg={EBook}  title="E-books"   url="crop&w=1200&q=60" btnClass="hide" 
     />  
     <ContactForm/>
     <Footer/>
